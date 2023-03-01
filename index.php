@@ -42,10 +42,7 @@ function getvalidresult($api,$client_id,$name){
     $status = 142;  
     $id = array();  
     $ifmodif = ""; 
-    $sucsess_budget =0; 
-    $today = strtotime($hour . ':00:00');
-
-    $date_from =  $date_to =  strtotime(12 . ':00:00'); 
+    $sucsess_budget =0;  
     try {
     $count = 200;  
     $offset = 1; 
