@@ -1,5 +1,5 @@
   <?php
-$date_to =require_once(__DIR__ . '/Introvert/autoload.php');  
+require_once(__DIR__ . '/Introvert/autoload.php');  
   
 
 
